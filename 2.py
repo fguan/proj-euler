@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 def calculateSum():
+    """Find sum of all even numbers in the Fibonnaci sequence whose values do not exceed four million"""
     sum = 0
     n0 = 1
     n1 = 2
