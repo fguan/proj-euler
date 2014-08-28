@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 def primes_sieve(limit):
     a = [True] * limit                          # Initialize the primality list
     a[0] = a[1] = False
