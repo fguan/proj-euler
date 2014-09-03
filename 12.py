@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+"""
+Find the value of the first triangle number to have over five hundred divisors.
+
+https://projecteuler.net/problem=12
+"""
+
 import math
 
 #primeList = [2]

@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+"""
+https://projecteuler.net/problem=14
+"""
+
 d = {}
 d[1] = 1
 

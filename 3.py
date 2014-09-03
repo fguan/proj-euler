@@ -1,7 +1,13 @@
 #!/usr/bin/python
 
+"""
+Calculate the largest prime factor of 600851475143.
+
+https://projecteuler.net/problem=3
+"""
+
 def calculateLargestPrimeFactor(number):
-    """Calculate the largest prime factor of 600851475143."""
+    
     i = 2
     while i * i < number:
         while number % i == 0:

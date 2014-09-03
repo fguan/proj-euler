@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+"""
+Find the sum of all the primes below two million.
+
+https://projecteuler.net/problem=10
+"""
+
 def primes_sieve(limit):
     # Initialize the primality list
     a = [True] * limit                      
@@ -16,7 +22,7 @@ def primes_sieve(limit):
                 # Mark factors non-prime
                 a[n] = False
 
-"""Find the sum of all the primes below two million."""
+
 sum = 0;
 for x in primes_sieve(2000000):
     print(x)

@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+"""
+Find the largest palindrome made from the product of two 3-digit numbers.
+
+https://projecteuler.net/problem=4
+"""
+
 def isPalindrome(number):
     i = 0
     a = str(number)
@@ -10,7 +16,6 @@ def isPalindrome(number):
     return True
 
 def findLargestPalindrome():
-    """Find the largest palindrome made from the product of two 3-digit numbers."""
     i = 999
     j = 999
     curr = 0
